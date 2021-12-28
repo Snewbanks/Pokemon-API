@@ -96,9 +96,6 @@ class Index:
         done = False
 
         while not done:
-
-            cls.instructions()
-
             pokemon_choice = input(
                 "Add pokemon to index.  Type 'end' to end the program")
             if pokemon_choice == 'end':
